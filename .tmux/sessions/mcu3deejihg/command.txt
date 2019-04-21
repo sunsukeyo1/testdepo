@@ -1,1 +1,1 @@
-git commit -am " kondokoso"
+git commit -am "kondokosoikeru"

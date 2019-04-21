@@ -30,3 +30,7 @@ git commit -am "migrate"
 git push origin master
 bundle install
 git add -A
+git commit -am " kondokoso"
+git push origin master
+rails s
+git add -A
