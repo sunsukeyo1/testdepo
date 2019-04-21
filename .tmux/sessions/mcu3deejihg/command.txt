@@ -1,1 +1,1 @@
-git commit -am "okok"
+git commit -am "postgre"
