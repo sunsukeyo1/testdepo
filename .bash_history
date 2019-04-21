@@ -26,3 +26,7 @@ rails s
 rails db:migrate
 rails s
 git add -A
+git commit -am "migrate"
+git push origin master
+bundle install
+git add -A
