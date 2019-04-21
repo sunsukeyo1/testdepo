@@ -20,3 +20,9 @@ git pull origin master
 source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/mcu3deejihg/vars.txt) && cd ${PWD}
 bundle install
 git add -A
+git commit -am "postgre"
+git push origin master
+rails s
+rails db:migrate
+rails s
+git add -A
